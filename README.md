@@ -113,6 +113,14 @@ After finishing your required elements, you can push your work further. These go
 Be prepared to demonstrate your understanding of this week's concepts by answering questions on the following topics. You might prepare by writing down your own answers before hand.
 
 1. Explain the difference between Relational Databases and SQL.
+  SQL, short for Structured Query Language, is a programming language that is used to manage data in relational databases. Relational databases use relations (typically called tables) to store data and then match that data by using common characteristics within the dataset. Some common relational database management systems that use SQL:
 2. Why do tables need a Primary Key?
+
+  You need a key to uniquely identify a row. The Primary Key constraint is a convention to indicate that the declared column (or list of columns) constitutes a key. There can be other reasons why a combination of column may be unique or is declared to be unique.
+
 3. What is the name given to a table column that references the Primary Key on another table?
+Column_Name is the name of the column having the primary key
+
 4. What do we need in order to have a _many to many_ relationship between two tables?
+To represent a many-to-many relationship, you must create a third table, often called a junction table, that breaks down the many-to-many relationship into two one-to-many relationships. You insert the primary key from each of the two tables into the third table.
+
